@@ -113,6 +113,7 @@ class BOT_API extends LINEBot {
         curl_close($ch);
 
         return json_decode($result);
+	    ////Test
 		
     }
 	
